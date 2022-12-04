@@ -1,18 +1,17 @@
 package com.example.justask;
 
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.Scanner;
+// com.mobisec.justask
+// com.mobisec.intent.action.JUSTASKBUTNOTSOSIMPLE
+// com.mobisec.intent.action.JUSTASK
 
 /*
 There is an app installed on the system. The app has four activities.
@@ -29,5 +28,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent intent = new Intent();
+        intent.setComponent(new ComponentName("com.mobisec.justask", "com.mobisec.justask.PartOne"));
+        startActivityForResult(intent,1);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == 1) {
+            if (resultCode == Activity.RESULT_OK) {
+                assert data != null;
+                Log.i("MOBISEC", data.getStringExtra("flag"));
+
+            }
+        }
     }
 }
