@@ -1,0 +1,2 @@
+helloworld: MOBISEC{here_there_is_your_first_and_last_charity_point}
+justlisten: MOBISEC{not_sure_Ive_heard_well_what_did_ya_say?!?}
