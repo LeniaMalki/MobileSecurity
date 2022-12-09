@@ -1,2 +1,8 @@
 helloworld: MOBISEC{here_there_is_your_first_and_last_charity_point}
 justlisten: MOBISEC{not_sure_Ive_heard_well_what_did_ya_say?!?}
+reachingout: MOBISEC{I_was_told_by_liars_that_http_queries_were_easy}
+justask: MOBISEC{Ive_asked_and_I_got_the_flag_how_nice!}
+whereareyou MOBISEC{Where_are_you_bro?_Will_not_tell_anybody_I_swear}
+jokeprovider: MOBISEC{lol_roftl_ahahah_:D_REYAMMER_TELLS_THE_BEST_JOKES!}
+unbindable: MOBISEC{please_respect_my_will_you_shall_not_bind_me_my_friend}
+serialintent:  MOBISEC{HOW_DID_YOU_DO_IT_THAT_WAS_SERIALLY_PRIVATE_STUFF1!!1!eleven!}
