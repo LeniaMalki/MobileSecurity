@@ -72,6 +72,7 @@ public class HashActivity extends AppCompatActivity {
             }
             sb.append(s);
         }
-        return sb.toString();}
+        return sb.toString();
+    }
 
 }

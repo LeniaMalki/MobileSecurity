@@ -4,6 +4,7 @@
 
     <uses-feature android:name="android.hardware.location.gps" />
     <uses-feature android:name="android.hardware.location.network" />
+
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -34,7 +35,7 @@
             android:name="com.example.whereareyou.WhereAreYou"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.mobisec.intent.action.GIMMELOCATION"/>
+                <action android:name="com.mobisec.intent.action.GIMMELOCATION" />
             </intent-filter>
         </service>
 

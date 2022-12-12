@@ -20,7 +20,7 @@ public class FlagContainer implements Serializable {
         int n = parts.length;
         int i;
         String b64 = new String();
-        for (i=0; i<n; i++) {
+        for (i = 0; i < n; i++) {
             b64 += parts[perm.get(i)];
         }
         byte[] flagBytes = Base64.decode(b64, Base64.DEFAULT);
