@@ -38,7 +38,7 @@ public static void main(String[] args) {
         IntStream.rangeClosed(-128, 127).parallel().forEach(i -> IntStream.rangeClosed(-128, 127).parallel().forEach(j -> IntStream.rangeClosed(-128, 127).parallel().forEach(k -> {
             byte[] currKey = new byte[]{(byte) k, (byte) j, (byte) i};
             try {
-                decodeFlag(currKey);
+                getFlag(currKey);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
