@@ -24,7 +24,7 @@ public boolean start(Context ctx, String flag) {
         return lc(path);
     }
 ````
- 
+
 The dc functions creates a HTTP connection. It then creates a new File object, which represents a
 file or directory in the file system. The file is located in the code cache directory of the current
 context, and its name is determined by the result of calling the gf() method. Data is continuously
