@@ -2,6 +2,10 @@
 
 ## Description of the problem
 
+Make use of both dynamical and static decompilation in order to get the flag. The flag is contained
+in the application itself but a lot of different functions are called, encrypted files and strings
+are decrypted in multiple ways.
+
 ## Solution
 
 In the Manifest.xml:
